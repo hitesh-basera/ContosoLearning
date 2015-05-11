@@ -12,7 +12,7 @@ namespace ContosoSite.Controllers
 {
     public class StudentController : Controller
     {
-        private ContosoDbContext db = new ContosoDbContext();
+        private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: /Student/
         public ActionResult Index()
